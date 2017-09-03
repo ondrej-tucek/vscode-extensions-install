@@ -19,7 +19,7 @@ Script for batch installing VS Code Insiders extensions.
     $ ./vscode_ext_install.sh vscode.ext
     ```
 
-## Screenshot of result
+## Screenshot of test result
 <p align="center"><img src="https://github.com/ondrej-tucek/vscode-extensions-install/blob/master/screenshot.png?raw=true" /></p>
 
 ## License
