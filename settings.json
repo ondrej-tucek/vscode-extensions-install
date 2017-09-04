@@ -1,0 +1,20 @@
+// Place your settings in this file to overwrite the default settings
+{
+    "window.zoomLevel": 0,
+    "files.trimTrailingWhitespace": true,
+    // "files.autoSaveDelay": 2000,
+    // "files.autoSave": "afterDelay",
+    // onFocusChange - to save files when focus moves out of the editor of the dirty file.
+    // onWindowChange - to save files when the focus moves out of the VS Code window.
+    "files.autoSave": "onWindowChange",
+    "workbench.iconTheme": "vscode-icons",
+    "git.enableSmartCommit": true,
+    "editor.renderIndentGuides": true,
+    "search.exclude": {
+        "**/node_modules": true,
+        "**/bower_components": true,
+        "**/_build": true,
+        "**/assets/elm/elm-stuff": true,
+        "**/*/js": true
+    }
+}
