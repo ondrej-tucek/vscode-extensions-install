@@ -11,10 +11,12 @@
     "git.enableSmartCommit": true,
     "editor.renderIndentGuides": true,
     "search.exclude": {
+        "**/deps": true,
         "**/node_modules": true,
         "**/bower_components": true,
         "**/_build": true,
         "**/assets/elm/elm-stuff": true,
+        "**/assets/elm/tests/elm-stuff": true,
         "**/*/js": true
     }
 }
