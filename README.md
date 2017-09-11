@@ -5,8 +5,8 @@ Script for batch installing VS Code Insiders extensions.
     ```
     $ code-insiders --list-extensions | sort -o vscode.ext
     ```
-2. make backup `vscode.ext` to git
-3. make backup `settings.json` to git
+2. make backup `vscode.ext` to github
+3. make backup `settings.json` to github
     ```
     $HOME/.config/Code - Insiders/User/settings.json
     ```
