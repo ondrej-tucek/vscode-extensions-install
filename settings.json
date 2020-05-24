@@ -6,8 +6,18 @@
     // "files.autoSave": "afterDelay",
     // onFocusChange - to save files when focus moves out of the editor of the dirty file.
     // onWindowChange - to save files when the focus moves out of the VS Code window.
+    "files.associations": {
+        "*.js": "javascript",
+        "*.html.eex": "html",
+        "*.html.leex": "HTML (Eex)",
+        "*.leex": "HTML (EEx)",
+        "*.ex": "elixir",
+        "*.exs": "elixir"
+    },
+    "files.exclude": {
+        "**/.git": true
+    },
     "files.autoSave": "onWindowChange",
-    "workbench.iconTheme": "vscode-icons",
     "git.enableSmartCommit": true,
     "editor.renderIndentGuides": true,
     "search.exclude": {
@@ -15,8 +25,25 @@
         "**/node_modules": true,
         "**/bower_components": true,
         "**/_build": true,
+        "**/elm-stuff": true,
         "**/assets/elm/elm-stuff": true,
         "**/assets/elm/tests/elm-stuff": true,
         "**/*/js": true
-    }
+    },
+    "elm.makeCommand": "/home/andrew/.nvm/versions/node/v8.4.0/bin/elm-make",
+    "elm.formatCommand": "/home/andrew/.nvm/versions/node/v8.4.0/bin/elm-format",
+    "[elm]": {
+        "editor.formatOnSave": true
+    },
+    "emmet.includeLanguages": {
+        "html-eex": "html"
+    },
+    "git.autofetch": true,
+    "editor.formatOnSave": true,
+    "copy-syntax.defaults.python": "/usr/bin/python3",
+    "elixirLS.dialyzerEnabled": false,
+    "elixirLS.fetchDeps": false,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "workbench.enableExperiments": false,
+    "emmet.showSuggestionsAsSnippets": true
 }
